@@ -13,12 +13,15 @@ You'll need Docker Compose to run the solution. More on Docker Compose see here 
 ### Running
 
 To start the monitoring run
-sudo docker-compose up -d
+
+'sudo docker-compose up -d'
 
 To access Grafana go to
+
 localhost:3000
 
 Grafana credentials
+
 admin/admin
 
 To see the graph go to BTC price dashboard
