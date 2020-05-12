@@ -13,7 +13,7 @@ services:
        volumes:
          - grafana_data:/var/lib/grafana
          - ./datasources:/etc/grafana/provisioning/datasources/
-         - ./dashboards:/etc/grafana/provisioning/dashboards/mkdir
+         - ./dashboards:/etc/grafana/provisioning/dashboards/
        user: root
        environment:
          - GF_SECURITY_ADMIN_USER=${ADMIN_USER:-admin}
