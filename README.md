@@ -25,3 +25,7 @@ Grafana credentials
 admin/admin
 
 To see the graph go to BTC price dashboard
+
+To stop the monitoring run
+
+'sudo docker-compose down'
